@@ -29,7 +29,7 @@ scissors = '''
 # print("Rock:", rock)
 # print("Paper:", paper)
 # print("Scissors:", scissors)
-opponent = int(input("type 0 for rock, 1 for scissors or 2 for paper"))
+opponent = int(input("type 0 for rock, 1 for scissors or 2 for paper "))
 me = [rock,paper,scissors]
 meRandomChoice = random.choice(me)
 
